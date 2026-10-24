@@ -19,15 +19,15 @@ int main() {
     double denominator = pow(b / a, exponent) + log(b);
 
     if (denominator == 0) {
-        cout << "помилка: ділення на нуль" << endl;
+        cout << "error: division by zero" << endl;
     } else {
         y = numerator / denominator;
 
-        cout << "вхідні дані:" << endl;
+        cout << "input data:" << endl;
         cout << "a = " << a << endl;
         cout << "b = " << b << endl;
         cout << "------------------------" << endl;
-        cout << "результат обчислення у = " << y << endl;
+        cout << "calculation result у = " << y << endl;
     }
 
     return 0;
